@@ -32,6 +32,3 @@ if [ $# -eq 0 ]; then
   echo "예: $0 ls -l"
   exit
 fi
-
-# 내부 함수 실행
-run_linux_command "$@"
